@@ -5,6 +5,7 @@
 //Agora você pode importar o prompt-sync para o seu arquivo JavaScript.
 const prompt = require('prompt-sync')({sigint: true});
 
+//Dicionário de descrição das linguagens de programação. No futuro, vou adicionar uma função para buscar essas informações via API.
 let descricaoLinguagem = new Map();
 descricaoLinguagem.set("JavaScript", "uma linguagem de programação popular para desenvolvimento web.");
 descricaoLinguagem.set("Python", "uma linguagem de programação popular para ciência de dados e automação.");
